@@ -53,7 +53,7 @@ Layout/FirstHashElementIndentation:
 Layout/FirstHashElementLineBreak:
   Enabled: true
 Layout/FirstMethodArgumentLineBreak:
-  Enabled: true
+  Enabled: false
 Layout/FirstMethodParameterLineBreak:
   Enabled: true
 Layout/LineEndStringConcatenationIndentation:
@@ -77,8 +77,14 @@ Layout/SingleLineBlockChain:
   Enabled: true
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
+Layout/SpaceBeforeBlockBraces:
+  Enabled: true
+  EnforcedStyle: no_space
 Layout/SpaceBeforeBrackets:
   Enabled: true
+Layout/SpaceInsideBlockBraces:
+  Enabled: true
+  EnforcedStyle: space
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 Layout/TrailingWhitespace:
