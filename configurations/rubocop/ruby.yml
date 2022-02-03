@@ -300,7 +300,7 @@ Style/MethodCalledOnDoEndBlock:
   Enabled: true
 Style/MethodCallWithArgsParentheses:
   Enabled: true
-  EnforcedStyle: omit_parentheses
+  EnforcedStyle: require_parentheses
   AllowParenthesesInChaining: true
   AllowParenthesesInMultilineCall: true
   IgnoreMacros: false
