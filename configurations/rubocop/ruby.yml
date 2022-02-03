@@ -299,6 +299,8 @@ Style/MapToHash:
 Style/MethodCalledOnDoEndBlock:
   Enabled: true
 Style/MethodCallWithArgsParentheses:
+  Exclude:
+    - 'spec/**/*'
   Enabled: true
   EnforcedStyle: require_parentheses
   AllowParenthesesInChaining: true
