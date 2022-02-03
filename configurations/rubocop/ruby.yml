@@ -299,15 +299,14 @@ Style/MapToHash:
 Style/MethodCalledOnDoEndBlock:
   Enabled: true
 Style/MethodCallWithArgsParentheses:
-  Exclude:
-    - 'spec/**/*'
   Enabled: true
   EnforcedStyle: require_parentheses
-  AllowParenthesesInChaining: true
-  AllowParenthesesInMultilineCall: true
-  IgnoreMacros: false
+  IgnoredMethods:
+    - be
+    - describe
+    - to
 Style/MethodDefParentheses:
-  EnforcedStyle: require_no_parentheses
+  EnforcedStyle: require_parentheses
 Style/MissingElse:
   Enabled: true
 Style/MultilineInPatternThen:
