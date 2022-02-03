@@ -218,7 +218,7 @@ Naming/MethodName:
     - URI
     - Version
 Naming/RescuedExceptionsVariableName:
-  PreferredName: error
+  PreferredName: err
 Naming/VariableNumber:
   EnforcedStyle: snake_case
   AllowedIdentifiers:
@@ -308,6 +308,7 @@ Style/MethodCallWithArgsParentheses:
   Enabled: true
   EnforcedStyle: require_parentheses
   IgnoredMethods:
+    - and
     - be
     - describe
     - to
@@ -377,6 +378,9 @@ Style/SlicingWithRange:
   Enabled: true
 Style/SoleNestedConditional:
   Enabled: true
+Style/StabbyLambdaParentheses:
+  Enabled: true
+  EnforcedStyle: require_parentheses
 Style/StaticClass:
   Enabled: true
 Style/StringChars:
@@ -386,7 +390,7 @@ Style/StringConcatenation:
 Style/StringLiterals:
   EnforcedStyle: single_quotes
 Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 Style/StringMethods:
   Enabled: true
 Style/SwapValues:
