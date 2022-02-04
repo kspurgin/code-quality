@@ -197,6 +197,12 @@ Metrics/BlockLength:
   Exclude:
     - "**/*.gemspec"
     - "spec/**/*"
+Metrics/MethodLength:
+  Enabled: true
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
 Metrics/ParameterLists:
   Max: 3
 Naming/BlockForwarding:
@@ -245,6 +251,7 @@ Style/ClassEqualityComparison:
   Enabled: true
 Style/ClassMethodsDefinitions:
   Enabled: true
+  EnforcedStyle: self_class
 Style/CombinableLoops:
   Enabled: true
 Style/CollectionCompact:
@@ -286,6 +293,10 @@ Style/HashExcept:
 Style/HashLikeCase:
   Enabled: true
   MinBranchesCount: 2
+Style/HashSyntax:
+  Enabled: true
+  EnforcedStyle: ruby19
+  EnforcedShorthandSyntax: never
 Style/HashTransformKeys:
   Enabled: true
 Style/HashTransformValues:
@@ -311,6 +322,7 @@ Style/MethodCallWithArgsParentheses:
     - and
     - be
     - describe
+    - include
     - to
 Style/MethodDefParentheses:
   EnforcedStyle: require_parentheses
