@@ -10,7 +10,7 @@ Bundler/InsecureProtocolSource:
 Gemspec/DateAssignment:
   Enabled: true
 Gemspec/RequireMFA:
-  Enabled: true
+  Enabled: false
 Layout/BeginEndAlignment:
   Enabled: true
   EnforcedStyleAlignWith: begin
