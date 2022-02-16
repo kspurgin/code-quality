@@ -37,6 +37,8 @@ RSpec/FactoryBot/SyntaxMethods:
   Enabled: false
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
 RSpec/NamedSubject:
   IgnoreSharedExamples: false
 RSpec/NestedGroups:
