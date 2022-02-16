@@ -383,7 +383,7 @@ Style/SelectByRegexp:
 Style/Send:
   Enabled: true
 Style/SignalException:
-  EnforcedStyle: semantic
+  EnforcedStyle: only_raise
 Style/SingleArgumentDig:
   Enabled: true
 Style/SlicingWithRange:
