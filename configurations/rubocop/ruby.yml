@@ -74,7 +74,7 @@ Layout/RedundantLineBreak:
   Enabled: true
   InspectBlocks: true
 Layout/SingleLineBlockChain:
-  Enabled: true
+  Enabled: false
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 Layout/SpaceBeforeBlockBraces:
