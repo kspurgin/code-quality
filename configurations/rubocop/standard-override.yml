@@ -3,3 +3,5 @@ AllCops:
 Layout/LineLength:
   Enabled: true
   Max: 80
+Style/FrozenStringLiteralComment:
+  Enabled: true
