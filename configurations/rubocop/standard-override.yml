@@ -1,5 +1,8 @@
 AllCops:
   DisabledByDefault: true
+Layout/LineContinuationSpacing:
+  Enabled: true
+  EnforcedStyle: no_space
 Layout/LineLength:
   Enabled: true
   Max: 80
