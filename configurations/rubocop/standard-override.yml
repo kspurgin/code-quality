@@ -1,5 +1,5 @@
-AllCops:
-  DisabledByDefault: true
+# AllCops:
+#   DisabledByDefault: true
 Layout/LineContinuationSpacing:
   Enabled: true
   EnforcedStyle: no_space
